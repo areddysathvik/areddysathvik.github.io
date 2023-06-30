@@ -64,7 +64,7 @@ body {
   transition: 0.7s ease-in-out;
 }
 .name-section h1:hover {
-  color: #8080FF;
+  color: #8080ff;
 }
 .name-section p {
   width: 90%;
@@ -135,7 +135,7 @@ body {
 .skills .contents .AREAS {
   padding: 20px;
   margin-top: 4%;
-  border: 1px solid #8080FF;
+  border: 1px solid #8080ff;
   margin-top: 3%;
   border-radius: 10px;
   width: 30%;
@@ -163,7 +163,7 @@ body {
 }
 .skills .contents .AREAS ul li a:hover {
   font-size: 18px;
-  color: #8080FF;
+  color: #8080ff;
 }
 .skills .projects {
   margin-top: 3%;
@@ -180,7 +180,7 @@ body {
 }
 .skills .highlight {
   font-weight: 400;
-  color: #8080FF;
+  color: #8080ff;
 }
 .skills .images {
   justify-content: space-around;
@@ -202,7 +202,7 @@ body {
 }
 .skills .images .p1 a {
   font-weight: 400;
-  color: #8080FF;
+  color: #8080ff;
   text-decoration: none;
   transition: 0.3s ease-in-out;
 }
@@ -234,4 +234,207 @@ footer a {
 footer a:hover {
   color: #ffffff;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px) {
+  .header {
+    height: 100vh;
+    background-color: black;
+  }
+  .header img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(45%);
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .resume {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+  }
+  .resume a {
+    color: rgba(255, 255, 255, 0.607);
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+  .resume svg {
+    height: 8px;
+    width: 8px;
+  }
+  .name-section {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-30%, -50%);
+    width: 100%;
+  }
+  .name-section .name_id {
+    color: white;
+    font-size: 30px;
+  }
+  .name-section h1 {
+    font-size: 20px;
+    width: 100%;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.662);
+    transition: 0.7s ease-in-out;
+  }
+  .name-section p {
+    width: 90%;
+    font-size: 8px;
+    margin-top: 2%;
+    max-width: 60%;
+    color: rgba(255, 255, 255, 0.626);
+  }
+  .name-section button {
+    margin-top: 4%;
+    padding: 2px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+  }
+  .name-section button a {
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 8px;
+    text-decoration: none;
+  }
+  .name-section button:hover {
+    background-color: white;
+    color: black;
+  }
+  .ABOUT {
+    background-color: black;
+  }
+  .ABOUT h1 {
+    letter-spacing: 2px;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+  }
+  .ABOUT p {
+    font-size: 8px;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    letter-spacing: 2px;
+  }
+  .skills {
+    margin-top: 3%;
+    background-color: black;
+  }
+  .skills h1 {
+    letter-spacing: 2px;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+  }
+  .skills .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .skills .contents .AREAS {
+    text-align: center;
+    padding: 10px;
+    margin-top: 14%;
+    border: 1px solid #8080ff;
+    margin-top: 3%;
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  .skills .contents .AREAS ul {
+    margin-top: 1%;
+    list-style-type: none;
+  }
+  .skills .contents .AREAS ul p {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 4%;
+    text-decoration: underline;
+  }
+  .skills .contents .AREAS ul li a {
+    text-align: center;
+    margin-top: 2%;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 8px;
+  }
+  .skills .projects {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white;
+  }
+  .skills .projects h1 {
+    letter-spacing: 2px;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .skills .highlight {
+    font-weight: 400;
+    color: #8080ff;
+  }
+  .skills .images {
+    justify-content: center;
+    margin-left: 15%;
+  }
+  .skills .images .p1 {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+  .skills .images .p1 img {
+    margin-top: 15%;
+    max-width: 70%;
+    border-radius: 5px;
+  }
+  .skills .images .p1 p {
+    max-width: 80%;
+    margin-top: 3%;
+    justify-content: center;
+    font-size: 8px;
+    align-items: center;
+  }
+  .skills .images .p1 a {
+    font-weight: 400;
+    color: #8080ff;
+    text-decoration: none;
+  }
+  footer {
+    margin-top: 5%;
+    background-color: #00003f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer a {
+    margin-left: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5647058824);
+  }
+  footer svg {
+    height: 10px;
+    width: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
