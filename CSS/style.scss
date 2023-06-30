@@ -266,6 +266,10 @@
 
 
 @media only screen and (max-width: 800px) {
+  body{
+    overflow: hidden;
+  }
+  
   .header {
     height: 100vh;
     background-color: black;
