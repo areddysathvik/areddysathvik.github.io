@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  font-weight: 200;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.header {
+  height: 100vh;
+  background-color: black;
+}
+.header img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(45%);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.resume {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.resume a {
+  color: rgba(255, 255, 255, 0.607);
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: 0.3s ease-out;
+}
+.resume a:hover {
+  border-bottom: 2px solid white;
+  color: #ffffff;
+}
+.resume a:hover svg {
+  color: #00003f;
+}
+.resume svg {
+  height: 14px;
+}
+
+.name-section {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+.name-section .name_id {
+  color: white;
+  font-size: 70px;
+  width: 65%;
+}
+.name-section h1 {
+  width: 67%;
+  font-size: 40px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.662);
+  transition: 0.7s ease-in-out;
+}
+.name-section h1:hover {
+  color: #8080FF;
+}
+.name-section p {
+  width: 90%;
+  font-size: 12px;
+  margin-top: 2%;
+  max-width: 60%;
+  color: rgba(255, 255, 255, 0.626);
+}
+.name-section button {
+  margin-top: 4%;
+  width: 140px;
+  height: 35px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+.name-section button a {
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.name-section button:hover a {
+  font-weight: 500;
+  color: #00003f;
+}
+.name-section button:hover {
+  background-color: white;
+  color: black;
+}
+
+.ABOUT {
+  background-color: black;
+}
+.ABOUT h1 {
+  letter-spacing: 2px;
+  margin-top: 3%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+}
+.ABOUT p {
+  max-width: 90%;
+  margin-left: 5%;
+  margin-top: 2%;
+  letter-spacing: 2px;
+}
+
+.skills {
+  margin-top: 3%;
+  background-color: black;
+}
+.skills h1 {
+  letter-spacing: 2px;
+  margin-top: 3%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 1px solid white;
+}
+.skills .contents {
+  display: flex;
+  justify-content: space-around;
+}
+.skills .contents .AREAS {
+  padding: 20px;
+  margin-top: 4%;
+  border: 1px solid #8080FF;
+  margin-top: 3%;
+  border-radius: 10px;
+  width: 30%;
+}
+.skills .contents .AREAS ul {
+  margin-top: 1%;
+  list-style-type: none;
+}
+.skills .contents .AREAS ul p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 4%;
+  text-decoration: underline;
+}
+.skills .contents .AREAS ul li a {
+  text-align: center;
+  margin-top: 2%;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-size: 16px;
+  transition: 0.2s ease-in-out;
+}
+.skills .contents .AREAS ul li a:hover {
+  font-size: 18px;
+  color: #8080FF;
+}
+.skills .projects {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid white;
+}
+.skills .projects h1 {
+  letter-spacing: 2px;
+  margin-top: 3%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.skills .highlight {
+  font-weight: 400;
+  color: #8080FF;
+}
+.skills .images {
+  justify-content: space-around;
+  margin-left: 15%;
+}
+.skills .images .p1 {
+  margin-top: 5%;
+  display: flex;
+}
+.skills .images .p1 img {
+  margin-left: 10%;
+  max-width: 32.5%;
+  border-radius: 20px;
+}
+.skills .images .p1 p {
+  justify-content: center;
+  max-width: 32.5%;
+  margin-left: 5%;
+}
+.skills .images .p1 a {
+  font-weight: 400;
+  color: #8080FF;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+.skills .images .p1 a:hover {
+  color: white;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+footer {
+  margin-top: 5%;
+  background-color: #00003f;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+footer a {
+  margin-left: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease-in;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5647058824);
+}
+footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
