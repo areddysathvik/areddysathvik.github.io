@@ -244,14 +244,14 @@ footer a:hover {
   .header img {
     width: 100%;
     height: 100%;
-    filter: brightness(45%);
+    filter: brightness(35%);
     -o-object-fit: cover;
        object-fit: cover;
   }
   .resume {
     position: absolute;
-    top: 10%;
-    left: 15%;
+    top: 5%;
+    left: 5%;
   }
   .resume a {
     color: rgba(255, 255, 255, 0.607);
@@ -261,36 +261,36 @@ footer a:hover {
     text-decoration: none;
   }
   .resume svg {
+    display: none;
     height: 8px;
     width: 8px;
   }
   .name-section {
     position: absolute;
-    top: 50%;
-    left: 45%;
-    transform: translate(-30%, -50%);
+    top: 40%;
+    left: 40%;
+    transform: translate(-30%, -30%);
     width: 70%;
   }
   .name-section .name_id {
     color: white;
-    font-size: 20px;
+    font-size: 40px;
   }
   .name-section h1 {
-    font-size: 13px;
+    font-size: 20px;
     width: 100%;
-    font-weight: 400;
+    font-weight: 600;
     color: rgba(255, 255, 255, 0.662);
     transition: 0.7s ease-in-out;
   }
   .name-section p {
-    width: 90%;
-    font-size: 6px;
+    font-size: 12px;
     margin-top: 2%;
-    max-width: 60%;
+    max-width: 90%;
     color: rgba(255, 255, 255, 0.626);
   }
   .name-section button {
-    margin-top: 4%;
+    margin-top: 10%;
     padding: 2px;
     background-color: transparent;
     border: 1px solid white;
@@ -298,9 +298,8 @@ footer a:hover {
     color: white;
   }
   .name-section button a {
-    letter-spacing: 2px;
     text-align: center;
-    font-size: 8px;
+    font-size: 10px;
     text-decoration: none;
   }
   .name-section button:hover {
@@ -311,29 +310,26 @@ footer a:hover {
     background-color: black;
   }
   .ABOUT h1 {
-    letter-spacing: 2px;
     margin-top: 3%;
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
     border-bottom: 1px solid white;
   }
   .ABOUT p {
-    font-size: 8px;
+    font-size: 12px;
     max-width: 90%;
     margin-left: 5%;
     margin-top: 2%;
-    letter-spacing: 2px;
   }
   .skills {
-    margin-top: 3%;
+    margin-top: 10%;
     background-color: black;
   }
   .skills h1 {
-    letter-spacing: 2px;
     margin-top: 3%;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     border-bottom: 1px solid white;
   }
@@ -344,13 +340,14 @@ footer a:hover {
     justify-content: center;
   }
   .skills .contents .AREAS {
+    margin-bottom: 8%;
     text-align: center;
     padding: 10px;
     margin-top: 14%;
     border: 1px solid #8080ff;
     margin-top: 3%;
     width: 250px;
-    height: 100px;
+    height: 130px;
     border-radius: 10px;
   }
   .skills .contents .AREAS ul {
@@ -371,7 +368,10 @@ footer a:hover {
     text-decoration: none;
     color: #ffffff;
     letter-spacing: 2px;
-    font-size: 8px;
+    font-size: 12px;
+  }
+  .skills .contents .AREAS ul li a:hover {
+    color: #ffffff;
   }
   .skills .projects {
     margin-top: 3%;
@@ -385,7 +385,7 @@ footer a:hover {
     letter-spacing: 2px;
     margin-top: 3%;
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
   }
   .skills .highlight {
@@ -408,10 +408,10 @@ footer a:hover {
   }
   .skills .images .p1 p {
     max-width: 80%;
-    margin-top: 3%;
+    margin-top: 5%;
     justify-content: center;
-    font-size: 8px;
-    align-items: center;
+    font-size: 12px;
+    text-align: start;
   }
   .skills .images .p1 a {
     font-weight: 400;
