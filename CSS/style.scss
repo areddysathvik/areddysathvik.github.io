@@ -366,7 +366,7 @@ footer {
 
 .quote{
   width: 100%;
-  margin-top: 2%;
+  margin-top: 0%;
   position: relative; 
   text-align: center;
   p{
@@ -439,7 +439,7 @@ footer {
   }
   .quote{
     width: 100%;
-    margin-top: 2%;
+    margin-top: 0%;
     position: relative; 
     text-align: center;
     p{
@@ -495,6 +495,7 @@ footer {
     }
   }
 }
+
   footer{
     video{
       filter: blur(3px);
@@ -517,7 +518,7 @@ footer {
   }
   .quote{
     width: 100%;
-    margin-top: 2%;
+    // margin-top: 1%;
     position: relative; 
     text-align: center;
     p{
@@ -628,7 +629,7 @@ footer {
   
         p{
           font-family: "Cherry Swash";
-          font-size: medium;
+          font-size: small;
         }
       }
     }
@@ -655,7 +656,7 @@ footer {
   
         p{
           font-family: "Cherry Swash";
-          font-size: medium;
+          font-size: small;
         }
       }
     }

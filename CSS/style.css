@@ -329,7 +329,7 @@ footer .footer-content .quick-links ul li a:hover {
 
 .quote {
   width: 100%;
-  margin-top: 2%;
+  margin-top: 0%;
   position: relative;
   text-align: center;
 }
@@ -384,7 +384,7 @@ footer .footer-content .quick-links ul li a:hover {
   }
   .quote {
     width: 100%;
-    margin-top: 2%;
+    margin-top: 0%;
     position: relative;
     text-align: center;
   }
@@ -447,7 +447,6 @@ footer .footer-content .quick-links ul li a:hover {
   }
   .quote {
     width: 100%;
-    margin-top: 2%;
     position: relative;
     text-align: center;
   }
@@ -548,7 +547,7 @@ footer .footer-content .quick-links ul li a:hover {
   }
   .skills .skills-slide .card p {
     font-family: "Cherry Swash";
-    font-size: medium;
+    font-size: small;
   }
   .skills-2 {
     overflow: hidden;
@@ -572,7 +571,7 @@ footer .footer-content .quick-links ul li a:hover {
   }
   .skills-2 .skills-slide .card p {
     font-family: "Cherry Swash";
-    font-size: medium;
+    font-size: small;
   }
   .about p {
     font-size: 1rem;
