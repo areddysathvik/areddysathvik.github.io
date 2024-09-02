@@ -92,7 +92,7 @@ body {
   height: auto;
   width: 80%;
   margin-top: 4%;
-  background: url("Perlin.png");
+  background: url("../Static/Perlin.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -208,7 +208,7 @@ body {
   margin: 0 0.6%;
   display: inline-block;
   box-shadow: 0 2px 5px rgba(69, 128, 255, 0.8);
-  background: url("5.jpg");
+  background: url("../Static/5.jpg");
   color: white;
   border-radius: 20px;
 }
@@ -232,7 +232,7 @@ body {
   margin: 0 0.6%;
   display: inline-block;
   box-shadow: 0 2px 5px rgba(69, 128, 255, 0.8);
-  background: url("5.jpg");
+  background: url("../Static/5.jpg");
   color: white;
   border-radius: 20px;
 }
@@ -542,7 +542,7 @@ footer .footer-content .quick-links ul li a:hover {
     margin: 0 0.4%;
     display: inline-block;
     box-shadow: 0 2px 5px rgba(69, 128, 255, 0.8);
-    background: url("5.jpg");
+    background: url("../Static/5.jpg");
     color: white;
     border-radius: 20px;
   }
@@ -566,7 +566,7 @@ footer .footer-content .quick-links ul li a:hover {
     margin: 0 0.4%;
     display: inline-block;
     box-shadow: 0 2px 5px rgba(69, 128, 255, 0.8);
-    background: url("5.jpg");
+    background: url("../Static/5.jpg");
     color: white;
     border-radius: 20px;
   }
