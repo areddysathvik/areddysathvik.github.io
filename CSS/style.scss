@@ -497,6 +497,7 @@ footer {
 }
 
   footer{
+    margin-bottom: -8%;
     video{
       filter: blur(3px);
     }
@@ -540,8 +541,8 @@ footer {
   
     .card-holder {
       flex: 0 0 auto;
-      width: 200px;
-      height: 250px;
+      width: 260px;
+      height: 350px;
       margin-right: 20px;
       background-size: cover;
       background-position: center;
@@ -623,7 +624,7 @@ footer {
         margin: 0 0.4%;
         display: inline-block; 
         box-shadow: 0 2px 5px rgba(69, 128, 255, 0.8);
-        background: url("../Static/5.jpg");
+        // background: url("../Static/5.jpg");
         color: white;
         border-radius: 20px;
   
@@ -650,7 +651,7 @@ footer {
         margin: 0 0.4%;
         display: inline-block; 
         box-shadow: 0 2px 5px rgba(69, 128, 255, 0.8);
-        background: url("../Static/5.jpg");
+        // background: url("../Static/5.jpg");
         color: white;
         border-radius: 20px;
   
