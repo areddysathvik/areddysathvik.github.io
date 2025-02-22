@@ -532,7 +532,7 @@ footer .footer-content .quick-links ul li a:hover {
   .skills .skills-slide {
     display: flex;
     white-space: nowrap;
-    animation: scroll-right 40s linear infinite;
+    animation: scroll-left 50s linear infinite;
   }
   .skills .skills-slide .card {
     padding: 14px 40px;
